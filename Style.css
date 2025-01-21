@@ -1,0 +1,36 @@
+body {
+    background-image: url(Blue\ Marbel.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+.box1, .box2, .box3{
+    width: 200px;
+    height:200px;
+    border: 2px solid whitesmoke;
+    }
+.box img{
+    width: 200px;
+    height:200px;
+}
+a:link{
+    color:aliceblue;
+}
+a:visited{
+    color:rgb(232, 210, 15);
+}
+a:hover{
+    color:deeppink;
+}
+h1, h2, p {
+   /* background: linear-gradient(to top, rgb(208, 53, 110), peachpuff);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255)
+}
